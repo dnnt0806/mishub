@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width:100%; margin:0
+}
+.container{
+	width: 100%; margin:0; padding:0
+}
+
+.menu{
+	width:100%; height: auto; background-color:#FFFEFD; margin:5px
+}
+
+.menu img{
+	width:2%; height:2%; display:block
+}
+
+.menu ul{
+	list-style: none; display: flex; padding: 0; margin: 0; align-items: center
+}
+
+.menu ul li a{
+	padding: 0px 30px; text-decoration: none; color:#4A5CFF; font-size: 13px; font-weight: 600; font-family:"Fz Albula Black"
+}
+
+.menu ul li:hover{
+	background-color: #E184B0; height: 100%; border-radius: 10px; text-align: center; display:block
+}
+
+menu ul li a:hover{
+	color: white;
+}
+
+#slide .owl-dots{position:absolute; bottom:10px; left:45%}
+#slide .owl-dots .owl-dot span {
+	width: 12px; height: 12px;
+}
+
+#slide .owl-nav{position: absolute; left: 0px; top: 50%; width: 100%}
+#slide .owl-nav[class*='owl-']{
+	font-size: 60px; color: #FFF
+		
+}
+
+#slide .owl-nav .owl-next{
+	position:absolute; right:2%
+}
+#slide .owl-nav .owl-prev{
+	position:absolute; left: 2%
+}
+
+#slide .owl-nav [class*='owl-']:hover{
+	background: none;
+	border: none;
+	color:#FB8F90;
+	text-decoration: none;
+}
+
+banner img{
+	width: 100%; display:block;
+}
+
+.activity img{
+	width:100%; height: auto; margin:0; display:block
+}
+
+[class*="col-"] {
+	margin:0; padding:0
+}
+
+.contact{
+	width:100%; margin:0; padding:0; background-color:rgba(225,132,176,1.00)
+}
+.contact h1{text-align:center; color:white; padding-top:20px; padding-bottom:10px; border-radius:50px;width:50%; margin:auto}
+.deco1{
+	background-color: rgba(74,92,255,1.00); text-align: center; color:white; margin:0; padding-top:20px; display:block; 
+}
+
+.product{
+	background-color:rgba(74,92,255,1.00); margin:0; padding:0; height:auto; width:100%
+}
+
+.product h1{text-align:center; color:rgba(74,92,255,1.00); padding-top:20px; padding-bottom:10px; border-radius:50px; background-color:white; width:50%; margin:auto}
+
+.vien{
+	border-radius: 30px; background-color: rgba(225,132,176,1.00); margin-bottom: 20px
+}
+
+.vien:hover{background-color:rgba(255,255,255,0.50);color:rgba(74,92,255,1.00) }
+.text-trang{
+	color:white; text-align:center; font-size: 20px
+}
+.product a{text-decoration:none}
+
+form {
+	border: 1px solid rgba(176,174,174,0.5); padding:50px; box-shadow:3px 3px 10px 0px grey; background-color: rgba(74,92,255,1.00)
+}
+.w-500{
+	width:100%
+}
+
+form button{
+	border:1px rgba(74,92,255,1.00); padding:10px 15px; background-color:rgba(225,132,176,1.00); color:white; border-radius: 5px
+}
+
+.map{border: 1px solid rgba(176,174,174,0.5); padding:10px; box-shadow:3px 3px 10px 0px grey;color:white;background-color:rgba(74,92,255,1.00)}
+iframe{
+	width:100%; height:300px
+}
+
+.contact-us{margin:0; padding:0; top:5%; position:absolute; left:40%; text-align:center}
+.align-center{text-align:center}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.footer{
+	width:100%; height:2px; background-color:#FFFEFD; margin:1px; position:relative
+}
+#product .owl-dots{position:absolute; bottom:10px; left:45%}
+#product .owl-dots .owl-dot span {
+	width: 12px; height: 12px;
+}
+
+#product .owl-nav{position: absolute; left: 0px; top: 50%; width: 100%}
+#product .owl-nav[class*='owl-']{
+	font-size: 60px; color: #FFF
+		
+}
+
+#product .owl-nav .owl-next{
+	position:absolute; right:2%
+}
+#product .owl-nav .owl-prev{
+	position:absolute; left: 2%
+}
+
+#product .owl-nav [class*='owl-']:hover{
+	background: none;
+	border: none;
+	color:#FB8F90;
+	text-decoration: none;
+}
+
+.product-slider{
+	width: 100%; margin:auto; padding:0; border-radius:30px
+}
+
+product img{
+	width: 20%; display:block; border-radius:20px
+}
